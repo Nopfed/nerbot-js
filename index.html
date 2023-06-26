@@ -7,7 +7,23 @@
 </head>
 <body>
 	
-	<p>henlo</p>
+	<form action="/action_page.php">
+		<p>Please select camera path type:</p>
+		
+		<input type="radio" id="interpolate" name="cam_type" value="nterpolate">
+	 	<label for="interpolate">Interpolate</label><br>
+
+	 	<input type="radio" id="spiral" name="cam_type" value="spiral">
+	 	<label for="spiral">Spiral</label><br>
+	 	
+		<input type="radio" id="orbit" name="cam_type" value="orbit">
+	 	<label for="orbit">Orbit</label>
+	
+	<br>
+	<br>
+
+	<input type="submit" value="Submit">
+	</form>
 
 	<!-- App Files -->
 	<script src="app/app.js"></script>
