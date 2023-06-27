@@ -1,63 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Simple Orbital Camera Path
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Has radius of 1 unit, 4 cameras and 75% smoothness on the camera path.
 
-## Setup
 
-Make sure to install the dependencies:
+Example 1 - Custom Data
 
-```bash
-# npm
-npm install
+https://github.com/Nopfed/nerfbot-js/assets/15887241/a5c89472-ce34-4a41-98ab-ba4b36ac2373
 
-# pnpm
-pnpm install
 
-# yarn
-yarn install
-```
 
-## Development Server
+Example 2 - Library Test Data
 
-Start the development server on `http://localhost:3000`:
+https://github.com/Nopfed/nerfbot-js/assets/15887241/c01d6e29-3e87-4b13-91d0-d618c77e79e9
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
