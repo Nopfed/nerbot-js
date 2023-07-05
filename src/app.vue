@@ -33,11 +33,13 @@
 export default {
   name: 'App',
   methods:{
-      getData()
-      {
+      getData(){
           // console.log(this.radius, this.angle)
         r_value = this.radius
         a_value = this.angle
+        fps = 24
+        seconds = 4
+        smoothness = 0.75
 
         camera_path = {
           "keyframes": [// every 4th value is homogenous coordinate and should remain unchanged
@@ -69,6 +71,14 @@ export default {
           "camera_type": "perspective",
           "render_height": 1080,
           "render_width": 1920,
+          "camera_path": [
+
+          ],
+          "fps": fps,
+          "seconds": seconds,
+          "smoothness_value": smoothness,
+          "is_cycle": true,
+          "crop": null
         }
 
         //                 [X0,X1,X2, X,
@@ -97,7 +107,38 @@ export default {
                             0,0,0, 1],
 
 
+      },
+      getCameraPath(radius, fps){
+        seconds = 4
+        interval = fps/2
+        halfway_value = radius*0.708
+        step_value1 = radius*(halfway_value/interval)
+        step_value2 = radius*((1-halfway_value)/interval)
+        camera_path_array = Array(fps*seconds)
+            // [X0,X1,X2,X,Y0,Y1,Y2,Y, Z0,Z1,Z2,Z,  0, 0, 0, 1]
+        cam1 = [ 1, 0, 0, 0,   0, 0,-1,-1,     0, 1, 0, 0, 0, 0, 0, 1]
+        cam2 = [ 0, 0, 1, 1,   1, 0, 0, 0,     0, 1, 0, 0, 0, 0, 0, 1]
+        cam3 = [-1, 0, 0, 0,   0, 0, 1, 1,     0, 1, 0, 0, 0, 0, 0, 1]
+        cam4 = [ 0, 0,-1,-1,  -1, 0, 0, 0,     0, 1, 0, 0, 0, 0, 0, 1]
+
+        camera_path_array[0] = cam1
+        camera_path_array[24] = cam2
+        camera_path_array[48] = cam3
+        camera_path_array[72] = cam4
+        camera_path_array[camera_path_array.length - 1] = cam1
+
+        
+        //first half
+        for (let i = 0; i < interval; i++) {
+          camera_path_array[i] = [ 1, 0, 0, 0,   0, 0,-1,-1,     0, 1, 0, 0, 0, 0, 0, 1]
+        }
+
+        //second half
+        for (let i = interval; i < fps; i++) {
+          camera_path_array[i] = [ 1, 0, 0, 0,   0, 0,-1,-1,     0, 1, 0, 0, 0, 0, 0, 1]
+        }
       }
+
     }
 
 }
