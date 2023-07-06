@@ -1,31 +1,33 @@
 # Simple Orbital Camera Path Examples
 
-Has radius of 1 unit, 4 cameras and 75% smoothness on the camera path.
-
-
-Example 1 - Custom Data
-
-
-
-https://github.com/Nopfed/nerfbot-js/assets/15887241/c02816da-2210-49b7-87bf-362e55b3a456
-
-
-
-Example 2 - Library Test Data
-
-
-
-https://github.com/Nopfed/nerfbot-js/assets/15887241/89011f0b-adef-43fd-98aa-d4308e356fda
-
-
-Example 3 - Custom Data - 45 Degree angle above
-
+Custom Data Example - Orbit of radius 1
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/f73db7f5-d545-462c-88d1-70d425f8e0a3
 
 
+Custom Data Example - Orbit of radius 0.5
 
-# Geometry Outputs
+https://github.com/Nopfed/nerfbot-js/assets/15887241/4d978543-4945-4a21-b061-ed8e20eb8097
+
+
+Custom Data Example - Orbit of radius 1.5
+
+https://github.com/Nopfed/nerfbot-js/assets/15887241/180dfa4a-6df5-4970-97ab-d5e6efe183d3
+
+
+
+Aspen Test Data Example - Orbit radius 0.5 (video file for radius of 1 or higher is > 10 MB and too large to upload here)
+
+https://github.com/Nopfed/nerfbot-js/assets/15887241/1447d450-3f62-4cc4-aa5b-dd60a8640cdb
+
+
+Aspen Test Data Example - Orbit radius 0.25
+
+https://github.com/Nopfed/nerfbot-js/assets/15887241/cd009fcf-3575-4569-a76c-6971d05ebfc8
+
+
+
+# Output Geometry Examples
 
 Example 1 - Regular Mesh
 
