@@ -5,6 +5,17 @@ Custom Data Example - Orbit of radius 1
 https://github.com/Nopfed/nerfbot-js/assets/15887241/f73db7f5-d545-462c-88d1-70d425f8e0a3
 
 
+Custom Data Example - Orbit of radius 0.5
+
+https://github.com/Nopfed/nerfbot-js/assets/15887241/4d978543-4945-4a21-b061-ed8e20eb8097
+
+
+Custom Data Example - Orbit of radius 1.5
+
+https://github.com/Nopfed/nerfbot-js/assets/15887241/180dfa4a-6df5-4970-97ab-d5e6efe183d3
+
+
+
 Aspen Test Data Example - Orbit radius 0.5 (video file for radius of 1 or higher is > 10 MB and too large to upload here)
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/1447d450-3f62-4cc4-aa5b-dd60a8640cdb
