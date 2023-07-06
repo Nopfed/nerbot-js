@@ -4,27 +4,35 @@ Custom Data Example - Orbit of radius 1
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/f73db7f5-d545-462c-88d1-70d425f8e0a3
 
+[Radius 1 Camera Path JSON](https://github.com/Nopfed/nerfbot-js/blob/main/src/camera_paths/a45r1.json)
+
 
 Custom Data Example - Orbit of radius 0.5
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/4d978543-4945-4a21-b061-ed8e20eb8097
+
+[Radius 0.5 Camera Path JSON](https://github.com/Nopfed/nerfbot-js/blob/main/src/camera_paths/a45r0.5.json)
 
 
 Custom Data Example - Orbit of radius 1.5
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/180dfa4a-6df5-4970-97ab-d5e6efe183d3
 
+[Radius 1.5 Camera Path JSON](https://github.com/Nopfed/nerfbot-js/blob/main/src/camera_paths/a45r1.5.json)
 
 
 Aspen Test Data Example - Orbit radius 0.5 (video file for radius of 1 or higher is > 10 MB and too large to upload here)
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/1447d450-3f62-4cc4-aa5b-dd60a8640cdb
 
+[Radius 0.5 Camera Path JSON](https://github.com/Nopfed/nerfbot-js/blob/main/src/camera_paths/a45r0.5.json)
+
 
 Aspen Test Data Example - Orbit radius 0.25
 
 https://github.com/Nopfed/nerfbot-js/assets/15887241/cd009fcf-3575-4569-a76c-6971d05ebfc8
 
+[Radius 0.25 Camera Path JSON](https://github.com/Nopfed/nerfbot-js/blob/main/src/camera_paths/a45r0.25.json)
 
 
 # Output Geometry Examples
